@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahar Saghafi</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+          <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+            <span class="h4 fw-bold d-lg-block d-lg-none">Bahar Saghafi</span>
+            <img src="./assets/images/bs.jpg" class="d-none d-lg-block rounded-circle" alt="Bahar's photo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper">
+
+        <!-- Home -->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">Hi, I'm Bahar</h1>
+                        <h3 data-aos="fade-up"><span class="text-brand">Software Developer</span> · Full-Stack, APIs and AI</h3>
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
+                            Software developer with an MSc in Advanced Computer Science and a first class BSc in Software Engineering, combining three years of commercial experience across full-stack applications, REST API design, database management, systems integration, and automation. Experienced in C# and ASP.NET Core, JavaScript, PHP, and Python, with strong SQL skills and a genuine interest in AI and emerging technologies. Right to work in the UK.
+                        </p>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <a href="#project" class="btn btn-brand me-3">Explore my Projects</a>
+                            <a href="#about" class="link-custom">About Me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="project" class="full-height px-lg-5">
+            <div class="container">
+
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">PROJECTS</h6>
+                        <h2>Projects I've worked on</h2>
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="project p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4"><i class="las la-code"></i></div>
+                            <h4 class="mt-5 mb-2">Course Enrolment API</h4>
+                            <p class="text-brand mb-2">Personal Project</p>
+                            <p>RESTful API built with ASP.NET Core 8 and Entity Framework Core managing Courses and Students with a relational database. Implemented smart enrolment validation checking course existence, published status, capacity, and duplicate emails. Added filtering by category and level, a PATCH endpoint to toggle draft/published status, and Swagger UI for in-browser testing. Database creates automatically on first run via code-first migrations.</p>
+                            <p><small><strong>C# · ASP.NET Core 8 · Entity Framework Core · SQLite</strong></small></p>
+                            <a href="https://github.com/baharsaghafi" target="_blank" class="link-custom">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
+                        <div class="project p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4"><i class="las la-robot"></i></div>
+                            <h4 class="mt-5 mb-2">Modular RAG Pipeline</h4>
+                            <p class="text-brand mb-2">Personal Project</p>
+                            <p>End-to-end AI pipeline with multi-source document ingestion, semantic similarity search, answer generation, and automated evaluation. Demonstrates practical understanding of AI systems and RAG architecture, including chunking strategies and LLM evaluation.</p>
+                            <p><small><strong>Python · Google Gemini API · LanceDB</strong></small></p>
+                            <a href="https://github.com/baharsaghafi" target="_blank" class="link-custom">View on GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4"><i class="las la-server"></i></div>
+                            <h4 class="mt-5 mb-2">Learning Resource API</h4>
+                            <p class="text-brand mb-2">Personal Project</p>
+                            <p>RESTful API built from scratch with Symfony 7 using the service container, Doctrine ORM with SQLite, and Symfony Serializer and Validator components. Manages AI and ML learning resources. Demonstrates clean PHP OOP architecture and REST API design.</p>
+                            <p><small><strong>PHP 8.2 · Symfony 7 · Doctrine ORM · SQLite</strong></small></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="450">
+                        <div class="project p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4"><i class="las la-chalkboard-teacher"></i></div>
+                            <h4 class="mt-5 mb-2">Interactive Course Catalogue and Enrolment Platform</h4>
+                            <p class="text-brand mb-2">Guykat Solutions Ltd</p>
+                            <p>Full-stack production platform with role-based access control, JWT authentication, user and enrolment management, real-time search, and automated PDF reporting. Demonstrates full ownership of a business-critical data application from development through to production deployment.</p>
+                            <p><small><strong>PHP · REST API · Azure SQL · JWT</strong></small></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up">
+                        <div class="project p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4"><i class="las la-file-excel"></i></div>
+                            <h4 class="mt-5 mb-2">API Data Reporting Tool</h4>
+                            <p class="text-brand mb-2">Guykat Solutions Ltd</p>
+                            <p>Automation tool enabling non-technical staff to query live LMS platform data directly from Excel without developer support. Demonstrates practical automation thinking and experience making data accessible to non-technical users in an organisational context.</p>
+                            <p><small><strong>JavaScript · Excel API Integration</strong></small></p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="150">
+                        <div class="project p-4 bg-base rounded-4 shadow-effect">
+                            <div class="iconbox rounded-4"><i class="las la-book-reader"></i></div>
+                            <h4 class="mt-5 mb-2">Book-Oriented Social Platform</h4>
+                            <p class="text-brand mb-2">MSc Dissertation · Birmingham City University</p>
+                            <p>Full-stack MERN application designed and built as a research intervention to study the impact of social media on reading behaviour. Implemented a React frontend integrated with a Node.js and Express backend, MongoDB database, user authentication, and social features. Applied user-centred design and Agile methodology throughout.</p>
+                            <p><small><strong>React · Node.js · MongoDB · Express</strong></small></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-4" data-aos="fade-up">
+                    <a href="project.html" class="link-custom">See all projects</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row pb-4" data-aos="fade-up">
+                    <div class="col-lg-8">
+                        <h6 class="text-brand">ABOUT</h6>
+                        <h2>My Education and Experience</h2>
+                    </div>
+                </div>
+
+                <div class="row gy-5">
+
+                    <!-- Experience -->
+                    <div class="col-lg-6">
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Junior Software Developer</h4>
+                                    <p class="text-brand mb-2">Guykat Solutions Ltd · Birmingham, UK<br>Feb 2025 to Feb 2026</p>
+                                    <p>Built full-stack web applications, RESTful APIs, and data pipelines integrating multiple systems for e-learning clients across England and the USA. Designed and implemented secure REST APIs with JWT authentication, managed SQL and Azure SQL databases, and developed automation tools reducing manual data tasks for non-technical staff. Collaborated in a distributed Agile team using Jira and Git.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="500">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Graduate Trainee</h4>
+                                    <p class="text-brand mb-2">Guykat Solutions Ltd · Birmingham, UK<br>Feb 2024 to Feb 2025</p>
+                                    <p>Three-rotation graduate programme covering software development (PHP, JavaScript, REST APIs, SQL), UX/UI design (accessibility, WCAG 2.1 AA, user research), and business analysis (requirements gathering, stakeholder management, documentation).</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Freelance Frontend Developer</h4>
+                                    <p class="text-brand mb-2">ShopHub · England, UK<br>Jan 2023 to Jan 2024</p>
+                                    <p>Built and maintained responsive web interfaces using JavaScript, React, HTML5, and CSS, integrating with backend APIs.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="700">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h4>Programming Teacher</h4>
+                                    <p class="text-brand mb-2">Saba Educational Complex · Tehran, Iran<br>2015 to 2021</p>
+                                    <p>Delivered programming instruction to large classes across six years. Administered and taught through Moodle LMS including platform configuration, course management, and user administration.</p>
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" data-aos-delay="800">
+                                <a class="btn btn-brand me-3" role="button" href="./assets/file/CV.BaharSaghafi2023.pdf" download="CV.BaharSaghafi.pdf">Download My CV</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Education and Skills -->
+                    <div class="col-lg-6">
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
+                        <div class="row gy-4">
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h5>MSc Advanced Computer Science · 2:1</h5>
+                                    <p class="text-brand mb-2">Birmingham City University · Birmingham, England<br>2021 to 2022</p>
+                                    <p class="mb-0">Modules: machine learning, AI systems, data analysis, database systems, software engineering</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="500">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h5>BSc Software Engineering · First Class</h5>
+                                    <p class="text-brand mb-2">Azad University · Tehran, Iran<br>2010 to 2014</p>
+                                    <p class="mb-0">Modules: C#, .NET framework, algorithms, data structures, software design, databases, systems analysis</p>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <h5>Frontend Development Bootcamp</h5>
+                                    <p class="text-brand mb-0">OpenClassrooms · Oct 2022 to Feb 2023</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Skills -->
+                        <h3 class="mt-5 mb-4" data-aos="fade-up" data-aos-delay="300">Technical Skills</h3>
+                        <div class="row gy-4">
+                            <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+                                <div class="bg-base p-4 rounded-4 shadow-effect">
+                                    <p class="mb-1"><strong>Web:</strong> JavaScript (ES6+), TypeScript, React, Node.js, PHP (OOP), HTML5, CSS3, Bootstrap</p>
+                                    <p class="mb-1"><strong>C# and .NET:</strong> ASP.NET MVC, ASP.NET Core 8, Entity Framework Core, RESTful API development</p>
+                                    <p class="mb-1"><strong>Databases:</strong> SQL Server, Azure SQL, MySQL, SQLite, MongoDB, Oracle (PL/SQL), Doctrine ORM</p>
+                                    <p class="mb-1"><strong>AI and Data:</strong> RAG pipelines, Google Gemini API, LanceDB, Scikit-learn, TensorFlow, Pandas, Power BI</p>
+                                    <p class="mb-1"><strong>Integration:</strong> REST API design, JWT authentication, third-party APIs, ETL pipelines, Excel automation</p>
+                                    <p class="mb-0"><strong>Workflow:</strong> Git, GitHub, Jira, Agile/Scrum, Azure, Linux, PowerShell, BASH, XDebug</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row justify-content-left text-left">
+                    <div class="col-lg-8 pb-4" data-aos="fade-up">
+                        <h6 class="text-brand">CONTACT</h6>
+                        <br>
+                        <h2>Would you like to get in touch?</h2>
+                    </div>
+                    <div class="col-md-5 d-grid btn btn-space">
+                        <a class="btn btn-brand" href="mailto:bahar.saghafi@gmail.com">Email <i class="las la-envelope-open-text"></i></a>
+                    </div>
+                    <div class="col-md-5 d-grid btn btn-space">
+                        <a class="btn btn-brand" href="https://www.linkedin.com/in/bahar-saghafi-tech/">LinkedIn <i class="lab la-linkedin"></i></a>
+                    </div>
+                    <div class="col-md-5 d-grid btn btn-space">
+                        <a class="btn btn-brand" href="https://github.com/baharsaghafi">GitHub <i class="lab la-github"></i></a>
+                    </div>
+                    <div class="col-md-5 d-grid btn btn-space">
+                        <a class="btn btn-brand" href="https://www.instagram.com/bahar_sgh/">Instagram <i class="lab la-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-5 px-lg-5">
+            <div class="container">
+                <div class="row gy-4 justify-content-between">
+                    <div class="col-auto">
+                        <p class="design">Designed By BaharSgh · Updated 2026</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/bahar-saghafi-tech/"><i class="lab la-linkedin"></i></a>
+                            <a href="https://github.com/baharsaghafi"><i class="lab la-github"></i></a>
+                            <a href="https://www.instagram.com/bahar_sgh/"><i class="lab la-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- End Content Wrapper -->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
